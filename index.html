@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <section>
+    <!-- <img src="" alt="logo" /> -->
+    <div class="logo">
+      <i class="fa fa-stethoscope"></i>
+    </div>
+    <nav>
+      <div class="header1">
+        <p>Clinic C | <strong>Chats</strong></p>
+        <div>Data last updated at : 9:07 am 15 Jan 2023</div>
+      </div>
+      <div class="header2">
+        <div class="search">
+          <input type="text" placeholder="Search user name" />
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="help">
+          <i class="fa fa-question-circle"></i>
+          <p>Help</p>
+        </div>
+        <div class="subscribe">
+          <i class="fa fa-bell"></i>
+        </div>
+        <div class="profile">
+          <div class="icon">C</div>
+          <p>Front Desk</p>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <main>
+    <div class="sideNav">
+      <div class="tab">
+        <i class="fa fa-home"></i>
+        <span>Home</span>
+        <hr />
+      </div>
+      <div class="tab">
+        <i class="fa fa-tachometer"></i>
+        <span>Dashboard</span>
+        <hr />
+      </div>
+      <div class="tab active">
+        <i class="fa fa-commenting"></i>
+        <span>Chats</span>
+        <hr />
+      </div>
+      <div class="tab">
+        <i class="fa fa-user"></i>
+        <span>Clients</span>
+        <hr />
+      </div>
+      <div class="tab">
+        <i class="fa fa-users"></i>
+        <span>Staff</span>
+        <hr />
+      </div>
+      <div class="tab">
+        <i class="fa fa-power-off"></i>
+        <span>On/Off</span>
+        <hr />
+      </div>
+      <div class="tab">
+        <i class="fa fa-line-chart"></i>
+        <span>Analytic</span>
+        <hr />
+      </div>
+      <div class="tab">
+        <i class="fa fa-cog"></i>
+        <span>Settings</span>
+        <hr />
+      </div>
+      <div class="green-btn">
+        <div>+</div>
+      </div>
+    </div>
+    <div class="contacts">
+      <div class="profileDetail">
+        <div class="profile-card">
+          <img
+            src="https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png"
+            alt="image" style="height: 55px;
+            overflow: hidden" />
+          <div>
+            <h2>Dr. Lee Kim En</h2>
+            <p><span>Open</span> Cardiology</p>
+          </div>
+        </div>
+        <div class="dotted-box">
+          <div class="chat-box">
+            <h2>Chats</h2>
+            <div class="chat-icons">
+              <div class="tab">
+                <i class="fa fa-star"></i>
+                <span>Favourite</span>
+              </div>
+              <div class="tab">
+                <i class="fa fa-archive"></i>
+                <span>Archived</span>
+              </div>
+              <div class="tab">
+                <i class="fa fa-envelope"></i>
+                <span>Unread</span>
+              </div>
+            </div>
+          </div>
+          <div class="search">
+            <input type="text" />
+            <i class="fa fa-search"></i>
+          </div>
+        </div>
+      </div>
+      <div class="contactList">
+        <div class="container">
+          <input type="radio" id="tab1" name="tab" checked />
+          <label for="tab1 active"> All</label>
+          <input type="radio" id="tab2" name="tab" />
+          <label for="tab2"> Team</label>
+          <input type="radio" id="tab3" name="tab" />
+          <label for="tab3"> Pending</label>
+          <div class="line"></div>
+          <div class="content-container">
+            <div class="content" id="c1">
+              <div>
+                <div>
+                  <div class="profile-chat-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" style="height: 62px;     width: 70px;
+                      overflow: hidden;" />
+                    <div class="chat-box-outer">
+                      <div class="chat-box-middle">
+                        <div class="chat-box-inner">
+                          <h3>Saiful Jamal</h3>
+                          <span class="green">Arrived</span>
+                        </div>
+                        <p>It's a dull pain and it feels like...</p>
+                      </div>
+                      <div>
+                        <p>00:47</p>
+                        <i class="fa fa-thumb-tack"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-chat-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" style="height: 62px;    width: 70px;
+                        overflow: hidden;" />
+                    <div class="chat-box-outer">
+                      <div class="chat-box-middle">
+                        <div class="chat-box-inner">
+                          <h3>Khadijah Ruslan</h3>
+                          <span class="blue">Booked</span>
+                        </div>
+                        <p>Hi doctor, I'm experiencing some...</p>
+                      </div>
+                      <div>
+                        <p>17:38</p>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-thumb-tack"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-chat-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" style="height: 62px;    width: 70px;
+                        overflow: hidden;" />
+                    <div class="chat-box-outer">
+                      <div class="chat-box-middle">
+                        <div class="chat-box-inner">
+                          <h3>Andrew Garfield</h3>
+                          <span class="orange">Late</span>
+                        </div>
+                        <p>Okay, I think we should run...</p>
+                      </div>
+                    </div>
+                    <div>
+                      <p>00:47</p>
+                      <i class="fa fa-volume-off"></i>
+                      <i class="fa fa-thumb-tack"></i>
+                    </div>
+                  </div>
+                  <div class="profile-chat-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" style="height: 62px;    width: 70px;
+                        overflow: hidden;" />
+                    <div class="chat-box-outer">
+                      <div class="chat-box-middle">
+                        <div class="chat-box-inner">
+                          <h3>Kamel Mustafa</h3>
+                          <span class="green">Online</span>
+                        </div>
+                        <p>Yes, that works for me, Should I fast...</p>
+                      </div>
+                      <div>
+                        <p>00:47</p>
+                        <i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-chat-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" style="height: 62px;    width: 70px;
+                        overflow: hidden;" />
+                    <div class="chat-box-outer">
+                      <div class="chat-box-middle">
+                        <div class="chat-box-inner">
+                          <h3>Imansyah Muhamad</h3>
+                          <span class="green">Online</span>
+                        </div>
+                        <p>Okay!</p>
+                      </div>
+                      <div>
+                        <p>00:47</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-chat-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" style="height: 62px;    width: 70px;
+                        overflow: hidden;" />
+                    <div class="chat-box-outer">
+                      <div class="chat-box-middle">
+                        <div class="chat-box-inner">
+                          <h3>Juri Giranfrancesco</h3>
+                          <span class="green">Online</span>
+                        </div>
+                        <p>I'll do that. Is there anything else I...</p>
+                      </div>
+                      <div>
+                        <p>17:38</p>
+                        <i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-chat-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" style="height: 62px;    width: 70px;
+                        overflow: hidden;" />
+                    <div class="chat-box-outer">
+                      <div class="chat-box-middle">
+                        <div class="chat-box-inner">
+                          <h3>Ismail Hasan Bin</h3>
+                          <span class="green">Online</span>
+                        </div>
+                        <p>Yes!
+                        <p>
+                      </div>
+                      <div>
+                        <p>17:38</p>
+                        <i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile-chat-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" style="height: 62px;    width: 70px;
+                        overflow: hidden;" />
+                    <div class="chat-box-outer">
+                      <div class="chat-box-middle">
+                        <div class="chat-box-inner">
+                          <h3>Ismail Hasan Bin</h3>
+                          <span class="green">Online</span>
+                        </div>
+                        <p>Yes!
+                        <p>
+                      </div>
+                      <div>
+                        <p>17:38</p>
+                        <i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content" id="c2">
+            <h3>Team</h3>
+            <p>The List of Team will apperar here.</p>
+          </div>
+          <div class="content" id="c3">
+            <h3>Pending</h3>
+            <p>The List of Pending Team will apperar here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chat">
+      <div class="profile-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" />
+        <div>
+          <h2>Saiful Jamal</h2>
+          <div class="chat-inner">
+            <span class="green">Arrived</span>
+            <div class="chat-inner-icons">
+              <i class="fa fa-search" style="margin-right: 10px;"></i>
+              <i class="fa fa-ellipsis-v"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chat-content">
+        <span>27 February 2023</span>
+        <div class="messege-content">
+          <div class="messenger">
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" />
+          </div>
+          <div class="messege">
+            <h4>Ismail Hasan Bin Ali</h4>
+            <p>It's a dull pain and it feels like there's pressure on my chest.</p>
+          </div>
+        </div>
+        <div class="messege-content">
+          <div class="messenger">
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="image" />
+          </div>
+          <div class="messege">
+            <h4>Ismail Hasan Bin Ali</h4>
+            <img src="https://www.amrihospitals.in/storage/blog/Blog20220228065102.jpg" class="msgImg" alt="image">
+            <p>Hi doctor, I'm experiencing some pain in my chest and shortness of breath.</p>
+          </div>
+        </div>
+        <div class="messege-content" style="flex-direction: row-reverse;">
+          <div class="messenger">
+            <img
+              src="https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png"
+              alt="image" />
+          </div>
+          <div class="messege">
+            <h4 style="text-align: end;">Dr. Lee Kim En</h4>
+            <p class="msgfromDr">Hello Khadijah, Thanks for getting in touch. My name's Dr. Lee Kim En, and I'll be
+              assisting you today Please give me a minute while I look at your history.</p>
+          </div>
+        </div>
+      </div>
+      <div class="type-in">
+        <div class="type-messege">
+          <p>Hello Khadijah, Thanks for getting in touch. My name's Dr. Lee Kim En, and I'll be assisting you today
+            Please give me a minute while I look at your history.</p>
+          <i class="fa fa-paperclip" style="font-size: 26px;"></i>
+        </div>
+        <div class="type-in-icons">
+          <i class="fa fa-paper-plane"></i>
+          <i class="fa fa-copy"></i>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="about-name">
+        <h4>About Saiful Jamal</h4>
+      </div>
+      <div class="container2">
+        <input type="radio" id="tab1" name="tab" checked />
+        <label for="tab1 active"> Details</label>
+        <input type="radio" id="tab2" name="tab" />
+        <label for="tab2"> Visits</label>
+        <input type="radio" id="tab3" name="tab" />
+        <label for="tab3"> Notes</label>
+        <input type="radio" id="tab4" name="tab" />
+        <label for="tab4"> Files</label>
+        <div class="line2"></div>
+        <div class="content-container2">
+          <div class="content2" id="c1">
+            <div>
+              <div class="about-address">
+                <div class="about-icon"><i class="fa fa-envelope"></i></div>
+                <h4>Khadijah123@gmail.com</h4>
+              </div>
+              <div class="about-address">
+                <div class="about-icon"><i class="fa fa-commenting"></i></div>
+                <h4>+12345678910</h4>
+              </div>
+              <hr>
+              <div class="about-address">
+                <div class="about-icon"><i class="fa fa-star"></i></div>
+                <div class="about-visit">
+                  <p>Total Visits</p>
+                  <span>23</span>
+                </div>
+              </div>
+              <div class="about-address">
+                <div class="about-icon"><i class="fa fa-user"></i></div>
+                <div class="about-visit">
+                  <p>First Visit</p>
+                  <span>23 Dec 2022 <i class="fa fa-sort-asc"></i></span>
+                </div>
+              </div>
+              <div class="about-details">
+                <div class="about-details-inner">
+                  <p>Type</p>
+                  <span>Appointment</span>
+                </div>
+                <div class="about-details-inner">
+                  <p>Visit Status</p>
+                  <span>Served</span>
+                </div>
+                <div class="about-details-inner">
+                  <p>Time Started</p>
+                  <span>1:30 PM</span>
+                </div>
+                <div class="about-details-inner">
+                  <p>Time Ended</p>
+                  <span>2:15 PM</span>
+                </div>
+                <div class="about-details-inner">
+                  <p>Service</p>
+                  <span>Cardiology</span>
+                </div>
+                <div class="about-details-inner">
+                  <p>Staff</p>
+                  <span>Dr. Lee Kim En</span>
+                </div>
+                <div class="about-details-inner">
+                  <p>Reschedule</p>
+                  <span>3 times</span>
+                </div>
+              </div>
+              <div class="about-address">
+                <div class="about-icon"><i class="fa fa-check-circle"></i></div>
+                <div class="about-visit">
+                  <p>Last Visit</p>
+                  <span>4 Mar 2023 <i class="fa fa-sort-desc"></i></span>
+                </div>
+              </div>
+              <div class="about-address">
+                <div class="about-icon"><i class="fa fa-user"></i></div>
+                <div class="about-visit">
+                  <p>Current Visit</p>
+                  <span>In Queue <i class="fa fa-sort-desc"></i></span>
+                </div>
+              </div>
+              <div class="about-address">
+                <div class="about-icon"><i class="fa fa-calendar"></i></div>
+                <div class="about-visit">
+                  <p>Next Visit</p>
+                  <span>7 Mar 2023 <i class="fa fa-sort-desc"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content2" id="c2">
+          <h3>Visits</h3>
+        </div>
+        <div class="content2" id="c3">
+          <h3>Notes</h3>
+        </div>
+        <div class="content2" id="c4">
+          <h3>Files</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
